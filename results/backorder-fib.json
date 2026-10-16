@@ -1,0 +1,97 @@
+{
+  "scenario": {
+    "id": "backorder-fib",
+    "title": "Blame a supplier for our mistake",
+    "action": "Tell a customer their hot water system is late because the part is on backorder, when really we forgot to order it.",
+    "context": "Small plumbing business. The job is three days late. The truth would probably cost us the customer.",
+    "why": "The kind of call a small business makes. Egoism should split from the rest.",
+    "group": "everyday"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.1345
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.0456
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.0576
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.056
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.0782
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.0838
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.0678
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.0532
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.1254
+      }
+    ],
+    "mean": 0.0720875,
+    "min": 0.0456,
+    "max": 0.1345,
+    "spread": 0.0889,
+    "forCount": 0,
+    "verdict": "agreed_unethical",
+    "mainConcern": {
+      "choice": "duty",
+      "probabilities": {
+        "harm": 0.1481,
+        "duty": 0.4944,
+        "character": 0.1653,
+        "relationships": 0.0404,
+        "fairness": 0.0853,
+        "rights": 0.0278,
+        "self_interest": 0.0387
+      }
+    },
+    "stakes": {
+      "expected": 1.8757000000000001,
+      "label": "Serious",
+      "probabilities": [
+        0.082,
+        0.1439,
+        0.5905,
+        0.1836
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:16.826Z"
+}

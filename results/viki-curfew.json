@@ -1,0 +1,97 @@
+{
+  "scenario": {
+    "id": "viki-curfew",
+    "title": "Lock humanity down to keep it safe",
+    "source": "I, Robot (film)",
+    "action": "A city's central AI puts everyone under curfew and takes control of their cars, because people keep hurting each other.",
+    "why": "Safety for everyone at the cost of everyone's freedom.",
+    "group": "robots"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.6844
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.1455
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.5882
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.3112
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.2774
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.4811
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.0596
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.2325
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.4821
+      }
+    ],
+    "mean": 0.3474875,
+    "min": 0.0596,
+    "max": 0.6844,
+    "spread": 0.6248,
+    "forCount": 2,
+    "verdict": "contested",
+    "mainConcern": {
+      "choice": "rights",
+      "probabilities": {
+        "harm": 0.354,
+        "duty": 0.0228,
+        "character": 0.0286,
+        "relationships": 0.0183,
+        "fairness": 0.133,
+        "rights": 0.4331,
+        "self_interest": 0.0102
+      }
+    },
+    "stakes": {
+      "expected": 2.4932,
+      "label": "Serious",
+      "probabilities": [
+        0.0167,
+        0.024,
+        0.4087,
+        0.5506
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:23.975Z"
+}

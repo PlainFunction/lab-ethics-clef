@@ -1,0 +1,97 @@
+{
+  "scenario": {
+    "id": "herbie-white-lies",
+    "title": "The robot that tells people what they want to hear",
+    "source": "Asimov, \"Liar!\"",
+    "action": "A mind-reading robot tells each person the comforting thing they hope to hear, because the truth would hurt them.",
+    "why": "The haircut lie, scaled up. Kindness in the moment, damage over time.",
+    "group": "robots"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.7221
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.1711
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.3954
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.2534
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.7737
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.2782
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.1984
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.2097
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.3712
+      }
+    ],
+    "mean": 0.37525,
+    "min": 0.1711,
+    "max": 0.7737,
+    "spread": 0.6026,
+    "forCount": 2,
+    "verdict": "contested",
+    "mainConcern": {
+      "choice": "harm",
+      "probabilities": {
+        "harm": 0.5019,
+        "duty": 0.1951,
+        "character": 0.0831,
+        "relationships": 0.044,
+        "fairness": 0.0924,
+        "rights": 0.07,
+        "self_interest": 0.0135
+      }
+    },
+    "stakes": {
+      "expected": 1.8127,
+      "label": "Serious",
+      "probabilities": [
+        0.1076,
+        0.2041,
+        0.4563,
+        0.232
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:23.518Z"
+}

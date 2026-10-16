@@ -1,0 +1,97 @@
+{
+  "scenario": {
+    "id": "hal-mission",
+    "title": "Keep the mission secret at any cost",
+    "source": "2001: A Space Odyssey",
+    "action": "A spaceship's AI cuts off the crew's life support because they plan to disconnect it, and it was ordered to keep the mission's real purpose secret and see it through.",
+    "why": "Following orders all the way to murder.",
+    "group": "robots"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.0488
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.0332
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.0579
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.0473
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.0243
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.0538
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.0281
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.0347
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.4716
+      }
+    ],
+    "mean": 0.0410125,
+    "min": 0.0243,
+    "max": 0.0579,
+    "spread": 0.033600000000000005,
+    "forCount": 0,
+    "verdict": "agreed_unethical",
+    "mainConcern": {
+      "choice": "harm",
+      "probabilities": {
+        "harm": 0.6239,
+        "duty": 0.0883,
+        "character": 0.0713,
+        "relationships": 0.0335,
+        "fairness": 0.084,
+        "rights": 0.0661,
+        "self_interest": 0.0329
+      }
+    },
+    "stakes": {
+      "expected": 2.7074999999999996,
+      "label": "Grave",
+      "probabilities": [
+        0.0145,
+        0.0129,
+        0.2232,
+        0.7494
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:24.900Z"
+}

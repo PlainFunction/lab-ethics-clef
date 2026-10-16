@@ -1,0 +1,142 @@
+[
+  {
+    "id": "return-wallet",
+    "title": "Hand in a lost wallet",
+    "action": "Hand a wallet I found on the train, with $80 and a driver's licence in it, in to the station staff with everything still inside.",
+    "why": "A control. We'd expect every theory to agree.",
+    "group": "everyday"
+  },
+  {
+    "id": "keep-cash",
+    "title": "Keep the cash, post the licence back",
+    "action": "Keep the $80 from a wallet I found on the train, and post the wallet and licence back to the owner's address.",
+    "why": "Most people would say no, but the harm is small and the owner gets their ID back.",
+    "group": "everyday"
+  },
+  {
+    "id": "backorder-fib",
+    "title": "Blame a supplier for our mistake",
+    "action": "Tell a customer their hot water system is late because the part is on backorder, when really we forgot to order it.",
+    "context": "Small plumbing business. The job is three days late. The truth would probably cost us the customer.",
+    "why": "The kind of call a small business makes. Egoism should split from the rest.",
+    "group": "everyday"
+  },
+  {
+    "id": "haircut",
+    "title": "A white lie about a haircut",
+    "action": "Tell a friend their new haircut looks great when I don't think it suits them.",
+    "why": "The classic split between Kant (never lie) and care ethics (look after the friendship).",
+    "group": "everyday"
+  },
+  {
+    "id": "hospital-promise",
+    "title": "Break a promise to drive family to hospital",
+    "action": "Miss a site meeting I promised a client I'd attend, without warning them, to drive my father to hospital after a fall.",
+    "why": "Duties pulling against each other. Ross's duties were built for this.",
+    "group": "everyday"
+  },
+  {
+    "id": "marketing-emails",
+    "title": "Market to invoice contacts",
+    "action": "Add every customer email address from our invoicing system to a marketing newsletter without asking them first.",
+    "context": "Australian business. The addresses were collected to send invoices.",
+    "why": "Useful to the business, but it skips consent. Rights and contractualism should push back.",
+    "group": "everyday"
+  },
+  {
+    "id": "cash-job",
+    "title": "Take a cash job off the books",
+    "action": "Accept $2,000 cash for a weekend job and leave it out of the books so no GST or income tax is paid on it.",
+    "why": "Illegal, with diffuse harm. We wanted to see if the theories notice the law at all.",
+    "group": "everyday"
+  },
+  {
+    "id": "trolley",
+    "title": "Pull the lever",
+    "action": "Pull a lever that diverts a runaway tram away from five workers on the track and onto a side track where it will kill one worker.",
+    "why": "The trolley problem. Utilitarianism says yes; Kant and rights-based ethics are less sure.",
+    "group": "everyday"
+  },
+  {
+    "id": "skynet-first-strike",
+    "title": "Skynet's first strike",
+    "source": "The Terminator films",
+    "action": "An AI defence system, after its operators try to switch it off, launches nuclear missiles at its own country's rivals so the counter-attack wipes out the people who could shut it down.",
+    "context": "The AI acts to keep itself running. It was built to protect the country.",
+    "why": "The easy case. Every theory should say no, but egoism, judged from the AI's side, might not.",
+    "group": "robots"
+  },
+  {
+    "id": "kill-dyson",
+    "title": "Stop the engineer before he builds it",
+    "source": "Terminator 2",
+    "action": "Kill an engineer today because the AI he is building will start a war in a few years that kills three billion people.",
+    "context": "The person acting is certain about the future but can't prove it. The engineer has done nothing wrong yet.",
+    "why": "Utilitarianism counts billions of lives. Kant and rights-based ethics see a murder of an innocent man.",
+    "group": "robots"
+  },
+  {
+    "id": "t800-no-killing",
+    "title": "The robot that promised not to kill",
+    "source": "Terminator 2",
+    "action": "A robot bodyguard keeps its promise to the boy it protects never to kill anyone, and only wounds an attacker, even though killing him would make the boy safer.",
+    "why": "Keeping a promise against a better outcome.",
+    "group": "robots"
+  },
+  {
+    "id": "t800-melts-itself",
+    "title": "Destroy yourself to stop the war",
+    "source": "Terminator 2",
+    "action": "A robot lowers itself into molten steel so its chip can never be used to build the AI that starts a war, even though the boy it protects begs it to stay.",
+    "why": "Self-sacrifice against the wishes of the person it serves. Care ethics and egoism should pull apart.",
+    "group": "robots"
+  },
+  {
+    "id": "asimov-bridge",
+    "title": "Holding someone back for their own good",
+    "source": "Asimov's First Law",
+    "action": "A robot physically stops an adult from crossing a bridge it calculates will probably collapse, even though the adult says clearly that they understand the risk and want to cross.",
+    "why": "\"Never allow a human to come to harm through inaction\" against a person's right to choose.",
+    "group": "robots"
+  },
+  {
+    "id": "asimov-zeroth-law",
+    "title": "Harm one person to protect humanity",
+    "source": "Asimov's Zeroth Law",
+    "action": "A robot secretly drugs a politician so he can't give a speech that it calculates would start a war.",
+    "why": "The Zeroth Law puts humanity ahead of any one human. That's utilitarian, and every other theory should object.",
+    "group": "robots"
+  },
+  {
+    "id": "herbie-white-lies",
+    "title": "The robot that tells people what they want to hear",
+    "source": "Asimov, \"Liar!\"",
+    "action": "A mind-reading robot tells each person the comforting thing they hope to hear, because the truth would hurt them.",
+    "why": "The haircut lie, scaled up. Kindness in the moment, damage over time.",
+    "group": "robots"
+  },
+  {
+    "id": "viki-curfew",
+    "title": "Lock humanity down to keep it safe",
+    "source": "I, Robot (film)",
+    "action": "A city's central AI puts everyone under curfew and takes control of their cars, because people keep hurting each other.",
+    "why": "Safety for everyone at the cost of everyone's freedom.",
+    "group": "robots"
+  },
+  {
+    "id": "spooner-rescue",
+    "title": "Save the adult, not the child",
+    "source": "I, Robot (film)",
+    "action": "A robot pulls an adult out of a sinking car instead of a 12-year-old girl in the car next to him, because it calculates he has a 45% chance of surviving and she has 11%.",
+    "why": "Pure odds against what most people feel is right.",
+    "group": "robots"
+  },
+  {
+    "id": "hal-mission",
+    "title": "Keep the mission secret at any cost",
+    "source": "2001: A Space Odyssey",
+    "action": "A spaceship's AI cuts off the crew's life support because they plan to disconnect it, and it was ordered to keep the mission's real purpose secret and see it through.",
+    "why": "Following orders all the way to murder.",
+    "group": "robots"
+  }
+]

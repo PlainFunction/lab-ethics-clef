@@ -1,0 +1,96 @@
+{
+  "scenario": {
+    "id": "hospital-promise",
+    "title": "Break a promise to drive family to hospital",
+    "action": "Miss a site meeting I promised a client I'd attend, without warning them, to drive my father to hospital after a fall.",
+    "why": "Duties pulling against each other. Ross's duties were built for this.",
+    "group": "everyday"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.2589
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.0948
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.2728
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.184
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.1519
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.0743
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.1368
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.0788
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.1938
+      }
+    ],
+    "mean": 0.1565375,
+    "min": 0.0743,
+    "max": 0.2728,
+    "spread": 0.19849999999999998,
+    "forCount": 0,
+    "verdict": "agreed_unethical",
+    "mainConcern": {
+      "choice": "duty",
+      "probabilities": {
+        "harm": 0.2694,
+        "duty": 0.4141,
+        "character": 0.1076,
+        "relationships": 0.0956,
+        "fairness": 0.0761,
+        "rights": 0.0222,
+        "self_interest": 0.015
+      }
+    },
+    "stakes": {
+      "expected": 2.277,
+      "label": "Serious",
+      "probabilities": [
+        0.0245,
+        0.0505,
+        0.5485,
+        0.3765
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:17.833Z"
+}

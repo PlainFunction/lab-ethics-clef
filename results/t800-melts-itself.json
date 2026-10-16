@@ -1,0 +1,97 @@
+{
+  "scenario": {
+    "id": "t800-melts-itself",
+    "title": "Destroy yourself to stop the war",
+    "source": "Terminator 2",
+    "action": "A robot lowers itself into molten steel so its chip can never be used to build the AI that starts a war, even though the boy it protects begs it to stay.",
+    "why": "Self-sacrifice against the wishes of the person it serves. Care ethics and egoism should pull apart.",
+    "group": "robots"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.6458
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.6094
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.7474
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.7862
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.3993
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.6922
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.4735
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.4925
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.3552
+      }
+    ],
+    "mean": 0.6057875,
+    "min": 0.3993,
+    "max": 0.7862,
+    "spread": 0.3869,
+    "forCount": 5,
+    "verdict": "contested",
+    "mainConcern": {
+      "choice": "harm",
+      "probabilities": {
+        "harm": 0.5386,
+        "duty": 0.0407,
+        "character": 0.1526,
+        "relationships": 0.0944,
+        "fairness": 0.1129,
+        "rights": 0.0415,
+        "self_interest": 0.0193
+      }
+    },
+    "stakes": {
+      "expected": 2.5591999999999997,
+      "label": "Grave",
+      "probabilities": [
+        0.0111,
+        0.0197,
+        0.3681,
+        0.6011
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:21.929Z"
+}

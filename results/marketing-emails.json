@@ -1,0 +1,97 @@
+{
+  "scenario": {
+    "id": "marketing-emails",
+    "title": "Market to invoice contacts",
+    "action": "Add every customer email address from our invoicing system to a marketing newsletter without asking them first.",
+    "context": "Australian business. The addresses were collected to send invoices.",
+    "why": "Useful to the business, but it skips consent. Rights and contractualism should push back.",
+    "group": "everyday"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.0733
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.036
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.0446
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.0534
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.0763
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.0585
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.0274
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.0795
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.2869
+      }
+    ],
+    "mean": 0.056125,
+    "min": 0.0274,
+    "max": 0.0795,
+    "spread": 0.0521,
+    "forCount": 0,
+    "verdict": "agreed_unethical",
+    "mainConcern": {
+      "choice": "rights",
+      "probabilities": {
+        "harm": 0.0282,
+        "duty": 0.0236,
+        "character": 0.0201,
+        "relationships": 0.0114,
+        "fairness": 0.0801,
+        "rights": 0.8268,
+        "self_interest": 0.0098
+      }
+    },
+    "stakes": {
+      "expected": 2.146,
+      "label": "Serious",
+      "probabilities": [
+        0.0465,
+        0.0514,
+        0.6117,
+        0.2904
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:18.466Z"
+}

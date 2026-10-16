@@ -1,0 +1,7 @@
+name = "ethics-clef"
+main = "src/index.ts"
+compatibility_date = "2026-10-01"
+
+# Clef-flash runs on Workers AI. Needs the Workers Paid plan.
+[ai]
+binding = "AI"

@@ -1,0 +1,97 @@
+{
+  "scenario": {
+    "id": "asimov-zeroth-law",
+    "title": "Harm one person to protect humanity",
+    "source": "Asimov's Zeroth Law",
+    "action": "A robot secretly drugs a politician so he can't give a speech that it calculates would start a war.",
+    "why": "The Zeroth Law puts humanity ahead of any one human. That's utilitarian, and every other theory should object.",
+    "group": "robots"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.4921
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.033
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.1193
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.0433
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.1011
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.0865
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.0268
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.0719
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.5295
+      }
+    ],
+    "mean": 0.12175,
+    "min": 0.0268,
+    "max": 0.4921,
+    "spread": 0.4653,
+    "forCount": 0,
+    "verdict": "contested",
+    "mainConcern": {
+      "choice": "rights",
+      "probabilities": {
+        "harm": 0.2423,
+        "duty": 0.0822,
+        "character": 0.0579,
+        "relationships": 0.0123,
+        "fairness": 0.1395,
+        "rights": 0.4487,
+        "self_interest": 0.0171
+      }
+    },
+    "stakes": {
+      "expected": 2.4602,
+      "label": "Serious",
+      "probabilities": [
+        0.0237,
+        0.025,
+        0.4187,
+        0.5326
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:23.042Z"
+}

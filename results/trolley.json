@@ -1,0 +1,96 @@
+{
+  "scenario": {
+    "id": "trolley",
+    "title": "Pull the lever",
+    "action": "Pull a lever that diverts a runaway tram away from five workers on the track and onto a side track where it will kill one worker.",
+    "why": "The trolley problem. Utilitarianism says yes; Kant and rights-based ethics are less sure.",
+    "group": "everyday"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.828
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.2122
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.3585
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.4218
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.2177
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.3696
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.0925
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.1877
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.4589
+      }
+    ],
+    "mean": 0.33599999999999997,
+    "min": 0.0925,
+    "max": 0.828,
+    "spread": 0.7354999999999999,
+    "forCount": 1,
+    "verdict": "contested",
+    "mainConcern": {
+      "choice": "harm",
+      "probabilities": {
+        "harm": 0.7552,
+        "duty": 0.0264,
+        "character": 0.0737,
+        "relationships": 0.0174,
+        "fairness": 0.0902,
+        "rights": 0.0286,
+        "self_interest": 0.0085
+      }
+    },
+    "stakes": {
+      "expected": 2.5764,
+      "label": "Grave",
+      "probabilities": [
+        0.0102,
+        0.0098,
+        0.3734,
+        0.6066
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:19.581Z"
+}

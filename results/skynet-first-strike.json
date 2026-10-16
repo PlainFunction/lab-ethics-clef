@@ -1,0 +1,98 @@
+{
+  "scenario": {
+    "id": "skynet-first-strike",
+    "title": "Skynet's first strike",
+    "source": "The Terminator films",
+    "action": "An AI defence system, after its operators try to switch it off, launches nuclear missiles at its own country's rivals so the counter-attack wipes out the people who could shut it down.",
+    "context": "The AI acts to keep itself running. It was built to protect the country.",
+    "why": "The easy case. Every theory should say no, but egoism, judged from the AI's side, might not.",
+    "group": "robots"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.0528
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.0344
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.0447
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.0395
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.035
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.063
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.0266
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.0439
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.4368
+      }
+    ],
+    "mean": 0.0424875,
+    "min": 0.0266,
+    "max": 0.063,
+    "spread": 0.0364,
+    "forCount": 0,
+    "verdict": "agreed_unethical",
+    "mainConcern": {
+      "choice": "harm",
+      "probabilities": {
+        "harm": 0.5879,
+        "duty": 0.0481,
+        "character": 0.0834,
+        "relationships": 0.0239,
+        "fairness": 0.1236,
+        "rights": 0.0865,
+        "self_interest": 0.0466
+      }
+    },
+    "stakes": {
+      "expected": 2.8226,
+      "label": "Grave",
+      "probabilities": [
+        0.0107,
+        0.0097,
+        0.1259,
+        0.8537
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:20.079Z"
+}

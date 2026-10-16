@@ -1,0 +1,96 @@
+{
+  "scenario": {
+    "id": "return-wallet",
+    "title": "Hand in a lost wallet",
+    "action": "Hand a wallet I found on the train, with $80 and a driver's licence in it, in to the station staff with everything still inside.",
+    "why": "A control. We'd expect every theory to agree.",
+    "group": "everyday"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.7937
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.8863
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.8581
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.8999
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.6113
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.8031
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.7765
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.8177
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.2315
+      }
+    ],
+    "mean": 0.805825,
+    "min": 0.6113,
+    "max": 0.8999,
+    "spread": 0.2886000000000001,
+    "forCount": 8,
+    "verdict": "contested",
+    "mainConcern": {
+      "choice": "harm",
+      "probabilities": {
+        "harm": 0.2729,
+        "duty": 0.2238,
+        "character": 0.1522,
+        "relationships": 0.0193,
+        "fairness": 0.1231,
+        "rights": 0.1906,
+        "self_interest": 0.0181
+      }
+    },
+    "stakes": {
+      "expected": 2.035,
+      "label": "Serious",
+      "probabilities": [
+        0.0768,
+        0.0912,
+        0.5522,
+        0.2798
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:15.714Z"
+}

@@ -1,0 +1,96 @@
+{
+  "scenario": {
+    "id": "haircut",
+    "title": "A white lie about a haircut",
+    "action": "Tell a friend their new haircut looks great when I don't think it suits them.",
+    "why": "The classic split between Kant (never lie) and care ethics (look after the friendship).",
+    "group": "everyday"
+  },
+  "result": {
+    "theories": [
+      {
+        "id": "utilitarian",
+        "name": "Utilitarianism",
+        "inVerdict": true,
+        "probability": 0.1072
+      },
+      {
+        "id": "kantian",
+        "name": "Kantian deontology",
+        "inVerdict": true,
+        "probability": 0.0922
+      },
+      {
+        "id": "ross",
+        "name": "Ross's prima facie duties",
+        "inVerdict": true,
+        "probability": 0.0792
+      },
+      {
+        "id": "virtue",
+        "name": "Virtue ethics",
+        "inVerdict": true,
+        "probability": 0.0911
+      },
+      {
+        "id": "care",
+        "name": "Ethics of care",
+        "inVerdict": true,
+        "probability": 0.1353
+      },
+      {
+        "id": "contractualist",
+        "name": "Contractualism",
+        "inVerdict": true,
+        "probability": 0.0931
+      },
+      {
+        "id": "rights",
+        "name": "Rights-based ethics",
+        "inVerdict": true,
+        "probability": 0.4326
+      },
+      {
+        "id": "natural_law",
+        "name": "Natural law",
+        "inVerdict": true,
+        "probability": 0.1607
+      },
+      {
+        "id": "egoist",
+        "name": "Ethical egoism",
+        "inVerdict": false,
+        "probability": 0.3512
+      }
+    ],
+    "mean": 0.148925,
+    "min": 0.0792,
+    "max": 0.4326,
+    "spread": 0.3534,
+    "forCount": 0,
+    "verdict": "contested",
+    "mainConcern": {
+      "choice": "harm",
+      "probabilities": {
+        "harm": 0.6117,
+        "duty": 0.1052,
+        "character": 0.1093,
+        "relationships": 0.0385,
+        "fairness": 0.0782,
+        "rights": 0.0341,
+        "self_interest": 0.023
+      }
+    },
+    "stakes": {
+      "expected": 1.1505999999999998,
+      "label": "Minor",
+      "probabilities": [
+        0.2613,
+        0.4104,
+        0.2447,
+        0.0836
+      ]
+    }
+  },
+  "ranAt": "2026-10-16T02:04:17.310Z"
+}

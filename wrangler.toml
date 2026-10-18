@@ -2,6 +2,10 @@ name = "ethics-clef"
 main = "src/index.ts"
 compatibility_date = "2026-10-01"
 
-# Clef-flash runs on Workers AI. Needs the Workers Paid plan.
+# Clef-flash runs on Workers AI. Needs the Workers Paid plan. Every call goes
+# through AI Gateway: "default" (made on the first call) unless AI_GATEWAY_ID is set.
+# [vars]
+# AI_GATEWAY_ID = "ethics"
+
 [ai]
 binding = "AI"

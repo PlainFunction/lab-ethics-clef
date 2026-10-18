@@ -3,6 +3,8 @@ import { PAGE } from './page'
 
 export interface Env {
   AI: Ai
+  /** The AI Gateway calls go through. Unset: "default". */
+  AI_GATEWAY_ID?: string
 }
 
 const json = (body: unknown, status = 200) =>
@@ -24,7 +26,7 @@ export default {
     if (typeof input === 'string') return json({ error: input }, 422)
 
     try {
-      return json(await judge(env.AI, input))
+      return json(await judge(env.AI, input, env.AI_GATEWAY_ID || undefined))
     } catch (err) {
       console.error(err)
       return json({ error: 'The model call failed' }, 502)

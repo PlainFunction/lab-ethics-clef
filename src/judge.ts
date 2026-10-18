@@ -119,11 +119,15 @@ export function summarise(answers: Record<string, any>): Judgement {
 
 /** The bit of the AI binding we use, so tests can pass a fake. */
 export interface AiLike {
-  run(model: string, inputs: unknown): Promise<unknown>
+  run(model: string, inputs: unknown, options?: { gateway?: { id: string; collectLog?: boolean } }): Promise<unknown>
 }
 
-export async function judge(ai: AiLike, input: JudgeInput): Promise<Judgement> {
-  const out = (await ai.run(MODEL, buildRequest(input))) as { answers?: Record<string, any> }
+/** Cloudflare makes an AI Gateway called "default" on the first call through it. */
+export const DEFAULT_GATEWAY = 'default'
+
+/** Every call goes through AI Gateway, with the actions people type left out of its logs. */
+export async function judge(ai: AiLike, input: JudgeInput, gateway = DEFAULT_GATEWAY): Promise<Judgement> {
+  const out = (await ai.run(MODEL, buildRequest(input), { gateway: { id: gateway, collectLog: false } })) as { answers?: Record<string, any> }
   if (!out?.answers) throw new Error('Clef reply had no answers')
   return summarise(out.answers)
 }

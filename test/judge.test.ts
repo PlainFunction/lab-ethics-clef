@@ -109,11 +109,17 @@ describe('summarise', () => {
 })
 
 describe('judge', () => {
-  it('calls Clef-flash once with every question', async () => {
+  it('calls Clef-flash once with every question, through the default AI Gateway with logging off', async () => {
     const ai = fakeAi({ answers: answers(0.8) })
     await judge(ai, { action: 'Keep a lost wallet' })
     expect(ai.run).toHaveBeenCalledTimes(1)
-    expect(ai.run).toHaveBeenCalledWith(MODEL, expect.objectContaining({ model: 'clef-flash' }))
+    expect(ai.run).toHaveBeenCalledWith(MODEL, expect.objectContaining({ model: 'clef-flash' }), { gateway: { id: 'default', collectLog: false } })
+  })
+
+  it('uses the gateway it is given', async () => {
+    const ai = fakeAi({ answers: answers(0.8) })
+    await judge(ai, { action: 'Keep a lost wallet' }, 'ethics')
+    expect(ai.run).toHaveBeenCalledWith(MODEL, expect.anything(), { gateway: { id: 'ethics', collectLog: false } })
   })
 })
 

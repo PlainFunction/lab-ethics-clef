@@ -1,6 +1,6 @@
 # Nine ethical theories, one model call
 
-The code behind our lab [Nine Ethical Theories, One Model Call](https://plainfunction.com.au/labs/ethics-clef).
+The code behind our lab [We Asked an AI Whether to Launch a Nuke](https://plainfunction.com.au/labs/ethics-clef).
 
 It's a small Cloudflare Worker. You describe an action, like "keep a wallet I found on the train", and it asks Cloudflare's Clef-flash model the same question nine ways, once for each ethical theory. It gets back a probability from each and says whether the theories agree or argue. The write-up explains what we found and why the disagreement is the useful part.
 

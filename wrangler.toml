@@ -1,6 +1,8 @@
 name = "ethics-clef"
 main = "src/index.ts"
 compatibility_date = "2026-10-01"
+# AsyncLocalStorage carries the current span across awaits.
+compatibility_flags = ["nodejs_compat"]
 
 # Clef-flash runs on Workers AI. Needs the Workers Paid plan. Every call goes
 # through AI Gateway: "default" (made on the first call) unless AI_GATEWAY_ID is set.
@@ -9,3 +11,19 @@ compatibility_date = "2026-10-01"
 
 [ai]
 binding = "AI"
+
+[observability]
+enabled = true
+
+# Traces to Tempo and logs to Loki: add OTLP destinations for each in the
+# Cloudflare dashboard (Workers Observability), then name them below. Or set
+# OTEL_EXPORTER_OTLP_ENDPOINT, and the secret OTEL_EXPORTER_OTLP_HEADERS, and
+# the Worker exports both itself.
+[observability.traces]
+enabled = true
+# destinations = ["grafana-tempo"]
+
+[observability.logs]
+enabled = true
+invocation_logs = true
+# destinations = ["grafana-loki"]

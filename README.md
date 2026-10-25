@@ -17,6 +17,10 @@ npm run scenarios         # runs scenarios.json against the running Worker, writ
 
 `POST /judge` with `{ "action": "...", "context": "..." }` returns the nine probabilities and a verdict.
 
+Every judgement is a paid model call, so a deployed copy answers nowhere until you give it an address: workers.dev and preview URLs are off. Add a custom domain route in `wrangler.toml` and put [Cloudflare Access](https://developers.cloudflare.com/cloudflare-one/policies/access/) in front of it. It also takes at most 10 judgements a minute (`JUDGE_LIMIT`), whoever asks.
+
+To switch it off, delete the route (or the Worker). It holds no keys of its own: the model is reached through the `AI` binding, so there's nothing to rotate.
+
 ## About this repo
 
 This repo is synced automatically from another source, so it's read-only: pull requests and pushes aren't accepted here. If you spot a problem, tell us through [plainfunction.com.au/contact](https://plainfunction.com.au/contact).

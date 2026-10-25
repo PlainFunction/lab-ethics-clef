@@ -140,6 +140,16 @@ describe('worker', () => {
     expect(await res.text()).toContain("fetch('/judge'")
   })
 
+  it('asks the model nothing once the spend cap is reached', async () => {
+    const ai = fakeAi({ answers: answers(0.9) })
+    const res = await worker.fetch(post(JSON.stringify({ action: 'Return a lost wallet to its owner' })), {
+      AI: ai as unknown as Ai,
+      JUDGE_LIMIT: { limit: async () => ({ success: false }) },
+    })
+    expect(res.status).toBe(429)
+    expect(ai.run).not.toHaveBeenCalled()
+  })
+
   it('rejects bad requests with the right status', async () => {
     expect((await worker.fetch(new Request('https://x/other'), env({}))).status).toBe(404)
     expect((await worker.fetch(new Request('https://x/judge'), env({}))).status).toBe(405)

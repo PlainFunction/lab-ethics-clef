@@ -6,6 +6,8 @@ export interface Env extends TelemetryEnv {
   AI: Ai
   /** The AI Gateway calls go through. Unset: "default". */
   AI_GATEWAY_ID?: string
+  /** The spend cap in wrangler.toml. Unbound (in tests), there's no cap. */
+  JUDGE_LIMIT?: { limit(options: { key: string }): Promise<{ success: boolean }> }
 }
 
 /** One Clef call. A port, so it runs in its own span and the model's time stands out. */
@@ -65,6 +67,10 @@ export default {
       }
       if (url.pathname !== '/judge') return json({ error: 'Not found' }, 404)
       if (request.method !== 'POST') return json({ error: 'Use POST' }, 405)
+      // One key for everyone: it caps what we spend, not what one person does.
+      if (env.JUDGE_LIMIT && !(await env.JUDGE_LIMIT.limit({ key: 'judge' })).success) {
+        return json({ error: 'Nothing was asked: that is the most judgements a minute this Worker takes. Try again in a minute.' }, 429)
+      }
 
       let body: unknown
       try { body = await request.json() } catch { return json({ error: 'Body must be JSON' }, 400) }
